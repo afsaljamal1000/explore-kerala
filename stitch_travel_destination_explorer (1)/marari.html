@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warm Amber & White Content Screen</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            serif: ['"Playfair Display"', 'serif'],
+          },
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .glass-card {
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 20px 45px -15px rgba(249, 115, 22, 0.12), 0 0 0 1px rgba(255, 255, 255, 0.6);
+    }
+    .badge-blur {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(249, 115, 22, 0.2);
+    }
+  </style>
+</head>
+<body class="min-h-screen font-sans text-neutral-800 antialiased relative selection:bg-orange-200 selection:text-orange-900 bg-neutral-50 overflow-x-hidden">
+
+  <!-- Background Image with Soft Vignette -->
+  <div class="fixed inset-0 -z-10 overflow-hidden">
+    <img 
+      src="https://lh3.googleusercontent.com/aida/AEtjO1UwJffO2_6lD4V-BfyugMFOw2O0xI-SX_D4MVKcQLP__E8o3eYDne6GR5OytW82RbMmYXLE5km_UNOdue4-P5iaBQtQ5lTy8uaYQ2fMVVXyKKGo4xywSMNIqfFTgMfhxXqJ1mOtL1zA_S8og3Gw75BE0BZDwy1dSPcGUdFXOltEXnVJamP-rRQS9cS7cC4CB-rZbZHFlnc_eNj_gJQ3tXv8qbnmWnbRGgeQpmsxztgWwihUn74n0drZ-Ak" 
+      alt="Blurred warm orange background" 
+      class="w-full h-full object-cover scale-105 transform pointer-events-none filter saturate-105"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-white/30 via-transparent to-white/40 pointer-events-none"></div>
+  </div>
+
+<div class="flex items-center gap-3">
+    </div>
+  </header>
+
+  <!-- Main Content Layout -->
+  <main class="w-full max-w-5xl mx-auto px-6 py-16 lg:py-20 flex flex-col items-center">
+    
+
+    <!-- Glass Content Article Container -->
+    <article class="glass-card mt-14 p-8 sm:p-12 lg:p-14 rounded-3xl w-full text-neutral-800">
+      
+      <!-- Article Header -->
+      <div class="border-b border-neutral-200/60 pb-8 mb-8 flex flex-wrap items-center justify-between gap-4">
+        <div>
+        
+          <h2 class="text-2xl sm:text-3xl font-bold text-neutral-900 mt-1">Mararikulam Fisher Village & Palms</h2>
+        </div>
+       
+
+      <!-- Text Content & Paragraphs -->
+      <div class="space-y-6 text-base sm:text-lg leading-relaxed text-neutral-700 font-normal">
+        <p class="first-letter:text-5xl first-letter:font-bold first-letter:text-orange-600 first-letter:float-left first-letter:mr-3 first-letter:leading-none">
+        Mararikulam Fishing Village and its palm-fringed coast offer a peaceful glimpse into Kerala's traditional maritime culture, standing out as one of the region’s most authentic, undeveloped beach destinations. Unlike busier resort towns, Marari remains a sleepy, working fishing village where life moves to the gentle rhythm of the Arabian Sea. Here, miles of clean, golden sands are shaded by a vast canopy of swaying coconut palms that stretch right down to the shoreline. Visitors can watch local fishermen launch their traditional wooden boats into the surf at dawn, mend their nets under the palms, or pull in the day's catch using age-old community techniques. It is a tranquil oasis perfect for travelers seeking to slow down, explore quiet village lanes by bicycle, experience genuine Keralan hospitality, and enjoy pristine beach vistas untouched by mass tourism.
+
+[Rich media excluded from paste]
+
+
+    
+
+
+       
+      </div>
+
+      <!-- Action & Engagement Footer -->
+      
+
+        <div class="flex items-center gap-3">
+        
+
+    </article>
+
+    <!-- Additional Content Grid / Cards -->
+    <section class="w-full mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+     
+
+     
+
+      
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+ 
+
+</body>
+</html>
